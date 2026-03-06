@@ -1,0 +1,64 @@
+.whiteBody{
+    background-color: white;
+}
+
+.blackBody{
+    background-color: black;
+}
+
+nav{
+    background-color: blue;
+    padding: 50px;
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+    }
+
+a{
+    padding: 40px;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color:white;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+.palavras{
+    background-color: aqua;
+}
+
+.palavrasDark{
+    background-color: darkblue;
+    color: white;
+}
+
+form{
+    background-color: aqua;
+    text-align: center;
+}
+
+#portifolio{
+    text-align: center;
+}
+
+#botaoClaro{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#botaoEscuro{
+    position: fixed;
+    bottom: 20px;
+    right: 120px;
+    padding: 20px;
+    font-size: 20px;
+}
