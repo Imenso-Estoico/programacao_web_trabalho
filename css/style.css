@@ -14,20 +14,22 @@ nav{
     border: 0px;
     }
 
-a{
+.menu{
     padding: 40px;
     font-size: x-large;
     text-decoration: none;
 }
 
-a:link, a:visited{
+.menu:link, .menu:visited{
     color:white;
 }
 
-a:hover{
+.menu:hover{
     background-color: white;
     color: black;
 }
+
+
 
 .palavras{
     background-color: aqua;
@@ -61,4 +63,30 @@ form{
     right: 120px;
     padding: 20px;
     font-size: 20px;
+}
+
+#mensagem{
+    height: 100px;
+    width: 500px;
+}
+
+a, a:hover, a:link, a:visited{
+    color: rgb(209, 18, 18);
+}
+
+@media only screen and (max-width: 900px) {
+    nav{
+        background-color: blue;
+        padding: 0px;
+        text-align: center;
+        margin: 0px;
+        border: 0px;
+    }
+
+    .menu{
+        padding: 10px;
+        font-size: x-large;
+        text-decoration: none;
+    }
+
 }

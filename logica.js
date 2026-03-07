@@ -45,3 +45,5 @@ function light(){
     document.getElementById("word2").className = "palavras";
     document.getElementById("word3").className = "palavras";
 }
+
+
