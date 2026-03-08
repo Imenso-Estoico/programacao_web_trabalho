@@ -92,4 +92,25 @@ a, a:hover, a:link, a:visited{
         text-decoration: none;
     }
 
+    #mensagem{
+        width: 75vw;
+        height: 25vh;
+    }
+    
+    #botaoClaro{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        padding: 10px;
+        font-size: 10px;
+    }
+
+    #botaoEscuro{
+        position: fixed;
+        bottom: 20px;
+        right: 70px;
+        padding: 10px;
+        font-size: 10px;
+    }
+
 }
