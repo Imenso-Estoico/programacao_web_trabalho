@@ -3,7 +3,7 @@ let email="";
 let mensagem="";
 //Acima temos declaração de variáveis
 
-const emailval = /^\S+@\S+\.\S+$/ //a forma mais simples que me deparei com.
+const emailval = /^\S+@\S+\.\S+$/ //a forma mais simples de checar estrutura de emails que me deparei com.
 
 //Função que é chamada por contato.html
 function validacao(){
@@ -30,6 +30,9 @@ function validacao(){
     document.getElementById("mensagem").value ="";
 }
 
+//Função responsável por ativar o modo escuro. Pode ser invocada por qualquer um dos arquivos html.
+//Funciona trocando a classe dos elementos. 
+// As classes novas possuem características escuras definidas no CSS
 function darkness(){
     document.getElementById("body1").className = "blackBody";
     document.getElementById("word0").className = "palavrasDark";
@@ -38,6 +41,9 @@ function darkness(){
     document.getElementById("word3").className = "palavrasDark";
 }
 
+//Faz o contrário da função acima.
+//Reverte as classes para o que eram originalmente.
+//O site começa com o modo claro. 
 function light(){
     document.getElementById("body1").className = "whiteBody";
     document.getElementById("word0").className = "palavras";

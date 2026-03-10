@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="body1" class="whiteBody">
-    <script src="logica.js"></script>
-    <nav>
-        <a class="menu" href="index.html">Sobre mim</a>
+    <script src="logica.js"></script> <!--link para o arquivo de javaScript-->
+    <nav> <!--Este é o menu que será comun a todos os arquivos html-->
+        <a class="menu" href="index.html">Sobre mim</a> 
         <a class="menu" href="formacao.html">Formação</a>
         <a class="menu" href="portifolio.html">Portifólio</a>
         <a class="menu" href="contato.html">Contato</a>
     </nav>
+    <!--A classe menu foi dada a estes links para que sejam alterados pelo CSS-->
     
+    <!--O id dessa div é para o JS e a classe para o CSS. O mesmo é verdade para as divs seguintes-->
     <div id="word0" class="palavras">
         <h2>  
             Informações pessoais
@@ -40,6 +42,7 @@
         <li>Jogos</li>
         <li>TTRPG</li>
     </ul>
+    <!--Uma lista não ordenada simples-->
 
     </div>
 
@@ -56,6 +59,8 @@
     </p>
     </div>
 
+    <!--Estes dois botôes são responsáveis por chamar as dunções que ativam o modo claro e escuro-->
+    <!--Chamam funções criadas no logica.js-->
     <button id="botaoEscuro" onclick="darkness()">Darkness</button>
     <button id="botaoClaro" onclick="light()">Light</button>
 

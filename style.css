@@ -1,12 +1,13 @@
-.whiteBody{
+.whiteBody{ /*Fundo claro do site*/
     background-color: white;
 }
 
-.blackBody{
+.blackBody{ /*Fundo escuro do site*/
     background-color: black;
 }
 
-nav{
+/*A nav em conjunto com os .menu são o que formam a área superior de navegação entre os HTMLs*/
+nav{ /*Cor e alinhamento*/
     background-color: blue;
     padding: 50px;
     text-align: center;
@@ -14,42 +15,42 @@ nav{
     border: 0px;
     }
 
-.menu{
+.menu{ /*Tamanho e removendo o sublinhado*/
     padding: 40px;
     font-size: x-large;
     text-decoration: none;
 }
 
-.menu:link, .menu:visited{
+.menu:link, .menu:visited{ /*O link não muda de cor*/
     color:white;
 }
 
-.menu:hover{
+.menu:hover{ /*Um pouco de interatividade ao passar o cursor*/
     background-color: white;
     color: black;
 }
 
 
 
-.palavras{
+.palavras{ /*Modo claro das divs*/
     background-color: aqua;
 }
 
-.palavrasDark{
+.palavrasDark{ /*Modo escuro das divs*/
     background-color: darkblue;
     color: white;
 }
 
-form{
+form{/*Faz o form parecido com as divs*/
     background-color: aqua;
     text-align: center;
 }
 
-#portifolio{
+#portifolio{/*Detalhe*/
     text-align: center;
 }
 
-#botaoClaro{
+#botaoClaro{/*Determina o tamanho e posição fixa do botão claro*/
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -57,7 +58,7 @@ form{
     font-size: 20px;
 }
 
-#botaoEscuro{
+#botaoEscuro{/*Determina o tamanho e posição fixa do botão escuro*/
     position: fixed;
     bottom: 20px;
     right: 120px;
@@ -65,17 +66,22 @@ form{
     font-size: 20px;
 }
 
-#mensagem{
+#mensagem{/*Determina o tamanho absoluto da textbox da aba contatos*/
     height: 100px;
     width: 500px;
 }
 
-a, a:hover, a:link, a:visited{
+a, a:hover, a:link, a:visited{/*Torna os links genéricos sempre vermelhos.*/
     color: rgb(209, 18, 18);
 }
 
+
+/*As linhas seguintes são responsáveis por tornar o site decente em telas pequenas.
+Foi pensado com celulares em mente. 
+É ativado quando a largura é menor que 900 px.
+*/
 @media only screen and (max-width: 900px) {
-    nav{
+    nav{/*Simplesmente reduz o padding*/
         background-color: blue;
         padding-top: 10px;
         padding-right: 0px;
@@ -86,18 +92,18 @@ a, a:hover, a:link, a:visited{
         border: 0px;
     }
 
-    .menu{
+    .menu{/*Simplesmente reduz o padding*/
         padding: 10px;
         font-size: x-large;
         text-decoration: none;
     }
 
-    #mensagem{
+    #mensagem{/*Torna o tamanho da mensagem relativo ao invés de absoluto. */
         width: 75vw;
         height: 25vh;
     }
     
-    #botaoClaro{
+    #botaoClaro{/*Reduz a fonte e o padding do botão assim como ajusta sua posição na tela*/
         position: fixed;
         bottom: 20px;
         right: 20px;
@@ -105,7 +111,7 @@ a, a:hover, a:link, a:visited{
         font-size: 10px;
     }
 
-    #botaoEscuro{
+    #botaoEscuro{/*Reduz a fonte e o padding do botão assim como ajusta sua posição na tela*/
         position: fixed;
         bottom: 20px;
         right: 70px;
